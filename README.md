@@ -37,7 +37,7 @@ None, Merge Sort does not require the data to be pre-sorted, the app accepts any
 5) **Bar charts:** A before and after bar chart to visually see the reordering.
 
 
-## Demo video/gif/screenshot of test
+## Demo video/gif/screenshot of test *This is a screenshot of a test while the website was still Local, prior to Hugging Face deployment
 
 <img width="1458" height="771" alt="Screenshot 2026-04-14 at 7 50 17 PM" src="https://github.com/user-attachments/assets/7ab61a64-bd15-49c5-9525-31dde96c6ba9" />
 
