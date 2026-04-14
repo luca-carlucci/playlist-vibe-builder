@@ -1,3 +1,12 @@
+---
+title: Playlist Vibe Builder
+emoji: 🎵
+colorFrom: blue
+colorTo: purple
+sdk: docker
+pinned: false
+---
+
 # Playlist Vibe Builder - Merge Sort Visualizer
 
 **CISC 121 - Introduction to Computing Science, Final Project**
@@ -178,4 +187,3 @@ Resources:
 - Gradio documentation:
 - Merge Sort Explanation: CISC 121 course notes
 - Hugging Face Spaces guide: https://huggingface.co/docs/hub/spaces
-
