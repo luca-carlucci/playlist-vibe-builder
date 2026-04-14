@@ -40,8 +40,7 @@ None, Merge Sort does not require the data to be pre-sorted, the app accepts any
 ## Demo video/gif/screenshot of test
 
 <img width="1458" height="771" alt="Screenshot 2026-04-14 at 7 50 17 PM" src="https://github.com/user-attachments/assets/7ab61a64-bd15-49c5-9525-31dde96c6ba9" />
-<img width="1458" height="771" alt="Screenshot 2026-04-14 at 7 54 09 PM" src="https://github.com/user-attachments/assets/95731d75-75a2-4f7b-9fa5-2a1a7af5a72d" />
-<img width="1458" height="771" alt="Screenshot 2026-04-14 at 7 53 41 PM" src="https://github.com/user-attachments/assets/19580b53-470b-41c6-b14b-9e4e5c965de1" />
+
 
 ## Problem Breakdown & Computational Thinking
 
@@ -153,7 +152,8 @@ git clone
 
 ## Testing
 
-Test 1 - Default playlist (8 songs, sort by Energy) ***Screenshot** 
+Test 1 - Default playlist (8 songs, sort by Energy) ***Screenshot** <img width="1458" height="771" alt="Screenshot 2026-04-14 at 7 55 15 PM" src="https://github.com/user-attachments/assets/a6a9f902-b135-4435-afef-eb1681454fb9" />
+
 
 
 - **Input**: The 8 pre-loaded songs
