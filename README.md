@@ -180,6 +180,7 @@ Test 5 - Empty input
 - **Result**: Correct ! 
 
 ## Hugging Face Link
+https://huggingface.co/spaces/lucacar/playlist-vibe-builderr
 
 ## Author & AI Acknowledgment
 
