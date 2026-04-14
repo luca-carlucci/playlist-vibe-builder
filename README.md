@@ -78,7 +78,7 @@ Others will **not** be shown:
 
 **1)** Recursion depth / call stack details. **2)** Array index management (i,j pointers). **3)** Internal list copying.
 
-## Algorithm Design - Input -> Processing -> Output + Flowchart
+**Algorithm Design - Input -> Processing -> Output + Flowchart:**
 
 **Input:** 
 
