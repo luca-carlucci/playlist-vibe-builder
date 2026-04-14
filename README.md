@@ -39,6 +39,10 @@ None, Merge Sort does not require the data to be pre-sorted, the app accepts any
 
 ## Demo video/gif/screenshot of test
 
+<img width="1458" height="771" alt="Screenshot 2026-04-14 at 7 50 17 PM" src="https://github.com/user-attachments/assets/7ab61a64-bd15-49c5-9525-31dde96c6ba9" />
+<img width="1458" height="771" alt="Screenshot 2026-04-14 at 7 54 09 PM" src="https://github.com/user-attachments/assets/95731d75-75a2-4f7b-9fa5-2a1a7af5a72d" />
+<img width="1458" height="771" alt="Screenshot 2026-04-14 at 7 53 41 PM" src="https://github.com/user-attachments/assets/19580b53-470b-41c6-b14b-9e4e5c965de1" />
+
 ## Problem Breakdown & Computational Thinking
 
 **Decomposition:**
@@ -149,19 +153,22 @@ git clone
 
 ## Testing
 
-Test 1 - Default playlist (8 songs, sort by Energy) ***Screenshot** submitted with OnQ submission due to error uploading on Markdown File
+Test 1 - Default playlist (8 songs, sort by Energy) ***Screenshot** 
+
 
 - **Input**: The 8 pre-loaded songs
 - **Expected**: Songs ordered from lowest to highest energy (Someone Like You --> Uptown Funk).
 - **Result**: Correct Ordering ! 
 
-Test 2 - Sort by Duration *Screenshot submitted on OnQ for same reason
+Test 2 - Sort by Duration ***Screenshot**<img width="1458" height="771" alt="Screenshot 2026-04-14 at 7 51 52 PM" src="https://github.com/user-attachments/assets/34ae9ee8-1ee2-457a-b6c3-e8f72aff7abf" />
+ 
 
 - **Input**: Same 8 songs, sort key = Duration
 - **Expected**: Shortest song first (Blinding Lights, 3:21) to longest (Stairway to Heaven, 8:02).
 - **Result**: Correct Ordering ! 
 
-Test 3 - One song (edge case) *Screenshot submitted on OnQ for same reason
+Test 3 - One song (edge case) ***Screenshot** <img width="1458" height="771" alt="Screenshot 2026-04-14 at 7 52 26 PM" src="https://github.com/user-attachments/assets/853e1f85-ca97-4d33-89f5-4a676261b412" />
+
 
 - **Input**: "Only Song, Solo Artist, 50, 200"
 - **Expected**: No sorting needed, list gets returned as-is with no compare steps.
