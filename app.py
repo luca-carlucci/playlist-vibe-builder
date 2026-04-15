@@ -5,7 +5,7 @@ A Gradio app that sorts a playlist of songs using the Merge Sort algorithm.
 Users can choose to sort by energy score or duration and watch
 the algorithm work step-by-step through an animated HTML visualization.
 
-Author: [Your Name]
+Author: Luca Carlucci
 Course: CISC 121 — Introduction to Computing Science
 """
 
@@ -31,7 +31,7 @@ DEFAULT_SONGS = [
 
 
 # ============================================================
-# MERGE SORT — implemented from scratch (no built-in sorting)
+# MERGE SORT implemented from scratch (no built-in sorting)
 # ============================================================
 
 def merge_sort(songs, key, steps):
@@ -171,12 +171,12 @@ def merge(left, right, key, steps):
 
 
 # ============================================================
-# HELPER — parse user-entered songs from a text box
+# HELPER — breakdown user-entered songs from a text box
 # ============================================================
 
-def parse_songs(text):
+def check_songs(text):
     """
-    Parse a multi-line string where each line is:
+    Read and extract data from a multi-line string where each line is:
         title, artist, energy, duration
     Returns a list of song dicts or raises ValueError.
     """
