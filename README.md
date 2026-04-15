@@ -192,6 +192,6 @@ https://huggingface.co/spaces/lucacar/playlist-vibe-builderr
 ## Author & AI Acknowledgment
 
 Resources: 
-- Gradio documentation:
+- Gradio documentation: https://www.marqo.ai/blog/how-to-create-a-hugging-face-space
 - Merge Sort Explanation: CISC 121 course notes
 - Hugging Face Spaces guide: https://huggingface.co/docs/hub/spaces
