@@ -194,12 +194,17 @@ https://huggingface.co/spaces/lucacar/playlist-vibe-builderr
 
 **AI Acknowledgement:**
 
-Level 1 AI (ChatGPT) used for Github and Hugging Face deployment.
+_**Help #1:**_
 
 **Prompt summary:** Requested help with inserting files into Hugging Face and then how to transfer to Github. Originally tried working through terminal, but errors were frequent so uploaded files directly into Hugging Face as suggested by AI.
 
 **Chat Link:** https://chatgpt.com/share/69ded96c-fb80-83ea-a79c-88740cdbc483
 
+_**Help #2:**_
+
+**Prompt summary:** Asked for aid in modifying original, written code to ensure effectiveness and proper syntax. Wanted to ensure exact same overall functionality and keep clear and readable, to ensure I can properly understand how to implement. I then read over it to understand and went through my app.py file to modify and manually apply changes.
+
+**Chat Link:** https://chatgpt.com/share/69dfac2c-e100-83ea-b33b-5f2cfa42ee63
 
 Resources: 
 - Gradio documentation: https://www.gradio.app/docs/python-client/introduction
