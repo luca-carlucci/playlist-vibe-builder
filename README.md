@@ -191,6 +191,15 @@ https://huggingface.co/spaces/lucacar/playlist-vibe-builderr
 
 ## Author & AI Acknowledgment
 
+**AI Acknowledgement:**
+
+Level 1 AI (ChatGPT) used for Github and Hugging Face deployment.
+
+**Prompt summary:** Requested help with inserting files into Hugging Face and then how to transfer to Github. Originally tried working through terminal, but errors were frequent so uploaded files directly into Hugging Face as suggested by AI.
+
+**Chat Link:** https://chatgpt.com/share/69ded96c-fb80-83ea-a79c-88740cdbc483
+
+
 Resources: 
 - Gradio documentation: https://www.marqo.ai/blog/how-to-create-a-hugging-face-space
 - Merge Sort Explanation: CISC 121 course notes
