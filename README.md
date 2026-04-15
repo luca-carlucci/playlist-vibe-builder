@@ -9,16 +9,16 @@ pinned: false
 
 # Playlist Vibe Builder - Merge Sort Visualizer
 
-**CISC 121 - Introduction to Computing Science, Final Project**
+**CISC 121 - Introduction to Computing Science - Python App for Merge Sort ALgorithm - Final Project**
 **By:** Luca Carlucci | 20530705
 
 **Chosen Problem:** 
 
-The problem I have chosen is Problem (2) Playlist Vibe Builder. Given a playlist of songs, each with a title, artist and energy score (0-100), and duration (secs), the user picks a sorting key (energy or duration) and the app will sort the playlist using Merge Sort. The sorting process is animated step-by-step, that way the user can follow along.
+The problem I have chosen is Problem **(2) Playlist Vibe Builder**. Given a playlist of songs, each with a title, artist and energy score (0-100), as well as duration (secs), the user picks a sorting key (energy or duration) and the app will sort the playlist using Merge Sort. The sorting process is animated step-by-step, followed by the final sorted playlist, that way the user can follow along.
 
 **Algorithm and why it fits chosen problem and dataset:** 
 
-I chose **Merge Sort** for this problem for a couple of reasons. Fist off, it is a stable sort method. Merge Sort will keep the relative order of songs that have the same energy/duration. This is nice for playlists, since if two songs are tied they will stay in the original order that the user decided. In addition, Merge Sort has predictable performance, considering it always runs in O(n log n) time, regardless of the input. This will make things less complicated as the code won't have to account for the worst case complexity O(n^2). This complexity happens with sorted, or nearly sorted data, which can be common for playlists if users add songs roughly in order.
+I chose **Merge Sort** for this problem for a couple of reasons. First off, it is a **stable** sort method. Merge Sort will keep the relative order of songs that have the same energy/duration. This is nice for playlists, since if two songs transition into one another they will stay in the original order that the user decided. In addition, Merge Sort has predictable performance, considering it always runs in **O(n log n) time** complexity, regardless of the input. This will make things less complicated as the code won't have to account for the worst case of O(n^2). This complexity happens with sorted, or nearly sorted data, which can be a possibility for playlists if users add songs roughly in order.
 
 **Preconditions:** 
 
@@ -40,6 +40,7 @@ None, Merge Sort does not require the data to be pre-sorted, the app accepts any
 ## Demo video/gif/screenshot of test *This is a screenshot of a test while the website was still Local, prior to Hugging Face deployment
 
 <img width="1458" height="771" alt="Screenshot 2026-04-14 at 7 50 17 PM" src="https://github.com/user-attachments/assets/7ab61a64-bd15-49c5-9525-31dde96c6ba9" />
+<img width="1458" height="769" alt="Screenshot 2026-04-15 at 10 44 52 AM" src="https://github.com/user-attachments/assets/1ac184bd-c1fc-47a8-bd1a-5a98b98048b1" />
 
 
 ## Problem Breakdown & Computational Thinking
@@ -48,7 +49,7 @@ None, Merge Sort does not require the data to be pre-sorted, the app accepts any
 
 The task breaks down into these smaller tasks:
 
-- Read user's song list from a text box. Validate format, energy range, duration.
+- Read user's song list from a text box. Validate format, energy range and duration (>0).
 
 - Divide the song list into two halves (recursive base case: list of size <= 1).
 
@@ -84,11 +85,11 @@ Others will **not** be shown:
 
 -Text Box: Songs
 
--Radio: Sort Key
+-Radio: Which Sort Key
 
 **Processing:**
 
--Check Format
+-Check Format 
 -Check Ranges
 -Build Song List 
 
@@ -201,6 +202,6 @@ Level 1 AI (ChatGPT) used for Github and Hugging Face deployment.
 
 
 Resources: 
-- Gradio documentation: https://www.marqo.ai/blog/how-to-create-a-hugging-face-space
+- Gradio documentation: https://www.gradio.app/docs/python-client/introduction
 - Merge Sort Explanation: CISC 121 course notes
 - Hugging Face Spaces guide: https://huggingface.co/docs/hub/spaces
