@@ -151,6 +151,9 @@ git clone
 
 4. Open URL shown in terminal
 
+## Hugging Face Link
+https://huggingface.co/spaces/lucacar/playlist-vibe-builderr
+
 ## Testing
 
 Test 1 - Default playlist (8 songs, sort by Energy) ***Screenshot** <img width="1458" height="771" alt="Screenshot 2026-04-14 at 7 55 15 PM" src="https://github.com/user-attachments/assets/a6a9f902-b135-4435-afef-eb1681454fb9" />
@@ -186,9 +189,6 @@ Test 5 - Empty input
 - **Input**: (blank text box)
 - **Expected**: Error: "Please enter at least one song."
 - **Result**: Correct ! 
-
-## Hugging Face Link
-https://huggingface.co/spaces/lucacar/playlist-vibe-builderr
 
 ## Author & AI Acknowledgment
 
