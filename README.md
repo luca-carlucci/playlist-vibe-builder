@@ -104,7 +104,7 @@ Merge Sort:
 -Bar chart HTML
 -Sorted playlist
 
-**Flowchart (See HTML, there's an error with Preview):**
+**Flowchart:**
 
 
 START
