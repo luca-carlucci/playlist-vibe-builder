@@ -11,8 +11,6 @@ Course: CISC 121 — Introduction to Computing Science
 
 import gradio as gr
 import random
-import time
-import json
 
 # ============================================================
 # SAMPLE DATA — a small default playlist the user can modify
