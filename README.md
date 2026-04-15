@@ -1,12 +1,3 @@
----
-title: Playlist Vibe Builder
-emoji: 🎵
-colorFrom: blue
-colorTo: purple
-sdk: gradio
-pinned: false
----
-
 # Playlist Vibe Builder - Merge Sort Visualizer
 
 **CISC 121 - Introduction to Computing Science - Python App for Merge Sort ALgorithm - Final Project**
