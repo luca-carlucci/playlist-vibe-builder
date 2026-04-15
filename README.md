@@ -170,7 +170,7 @@ Test 2 - Sort by Duration ***Screenshot**<img width="1458" height="771" alt="Scr
 Test 3 - One song (edge case) ***Screenshot** <img width="1458" height="771" alt="Screenshot 2026-04-14 at 7 52 26 PM" src="https://github.com/user-attachments/assets/853e1f85-ca97-4d33-89f5-4a676261b412" />
 
 
-- **Input**: "Only Song, Solo Artist, 50, 200"
+- **Input**: "Blinding Lights, The Weeknd, 75, 201"
 - **Expected**: No sorting needed, list gets returned as-is with no compare steps.
 - **Result**: Correct ! Output shows "0 comparisons" and the single song. 
 
